@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>XoeRemit | Xoepay - REasy payment processor for developing countries</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../favicon.ico">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../../assets/css/theme.css">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="header" data-hs-header-options='{
+    "fixMoment": 1000,
+    "fixEffect": "slide"
+  }'>
+    <div class="header-section">
+      <!-- Topbar -->
+      <div class="container header-hide-content d-none d-lg-block pt-2">
+        <div class="d-flex align-items-center">
+          <div class="ml-auto">
+            <!-- Jump To -->
+            <div class="hs-unfold d-sm-none mr-2">
+              <a class="js-hs-unfold-invoker dropdown-nav-link dropdown-toggle d-flex align-items-center"
+                href="javascript:;" data-hs-unfold-options='{
+          "target": "#jumpToDropdown",
+          "type": "css-animation",
+          "event": "hover",
+          "hideOnScroll": "true"
+         }'>
+                Jump to
+              </a>
+
+              <div id="jumpToDropdown" class="hs-unfold-content dropdown-menu">
+                <a class="dropdown-item" href="../pages/faq.html">Help</a>
+                <a class="dropdown-item" href="../pages/contacts-agency.html">Contacts</a>
+              </div>
+            </div>
+            <!-- End Jump To -->
+
+            <!-- Links -->
+            <div class="nav nav-sm nav-y-0 d-none d-sm-flex ml-sm-auto">
+              <a class="nav-link" href="../help-desk/index.html" target="_blank">Help</a>
+              <a class="nav-link" href="../pages/contacts-agency.html">Contacts</a>
+            </div>
+            <!-- End Links -->
+          </div>
+        </div>
+      </div>
+      <!-- End Topbar -->
+
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-lg">
+          <!-- White Logo -->
+          <a class="navbar-brand navbar-brand-default" href="index.html" aria-label="XoePay">
+            <img src="../../assets/svg/logos/logo.svg" alt="Logo">
+          </a>
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn btn-icon btn-sm rounded-circle" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+            <span class="navbar-toggler-default">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z" />
+              </svg>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+              </svg>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse">
+            <div class="navbar-body header-abs-top-inner d-flex justify-content-between">
+              <ul class="navbar-nav mr-4">
+                <!-- Home -->
+
+                <li class="hs-has-mega-menu navbar-nav-item" data-hs-mega-menu-item-options='{
+          "desktop": {
+            "position": "right",
+            "maxWidth": "700px"
+          }
+        }'>
+                  <a id="solutionsMegaMenu" class="hs-mega-menu-invoker nav-link" href="javascript:;"
+                    aria-haspopup="true" aria-expanded="true">Solutions</a>
+
+                  <!-- Demos - Mega Menu -->
+                  <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="solutionsMegaMenu">
+
+                    <div class="row no-gutters">
+                      <div class="col-lg-6 ">
+                        <h3 class="my-2 px-5 pt-2"> Receive Payments</h3>
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="payments.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/payments.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Payments</span>
+                                <small class="navbar-promo-text">Easily integrate payments into your website and online
+                                  store.</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="Point_of_sale.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/xoePOS.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Wireless POS</span>
+                                <small class="navbar-promo-text">Easy checkout solution for local business</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="billing.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/billing.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Billing</span>
+                                <small class="navbar-promo-text">Easy accept payments without a website or
+                                  integration.</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="payment_links.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/paymentLinks.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Payment Links</span>
+                                <small class="navbar-promo-text">Easy accept payments without a website or
+                                  integration.</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+                      <div class="col-lg-6 navbar-promo">
+                        <h3 class="my-2 px-5 pt-2">Money Transfer</h3>
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="xoe_qr.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/xoeQR.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">XoeQR</span>
+                                <small class="navbar-promo-text">Easy accept payments without a website or
+                                  integration.</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="xoe_remit.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/xoeRemit.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">XeoRemit</span>
+                                <small class="navbar-promo-text">Make Contactless payments and earn numerous loyalties
+                                  and cashbacks</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="card_issuing.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/issuing.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Issuing</span>
+                                <small class="navbar-promo-text">Make Contactless payments and earn numerous loyalties
+                                  and cashbacks</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-item">
+                          <a class="navbar-promo-link" href="xoe_card.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/xoeCard.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">XoeCard</span>
+                                <small class="navbar-promo-text">Make Contactless payments and earn numerous loyalties
+                                  and cashbacks</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End Submenu -->
+                </li>
+
+                <!-- Pages -->
+
+                <!-- Blog -->
+                <li class="hs-has-sub-menu navbar-nav-item">
+                  <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link" href="javascript:;" aria-haspopup="true"
+                    aria-expanded="false" aria-labelledby="blogSubMenu">Company</a>
+
+                  <!-- Blog - Submenu -->
+                  <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu"
+                    style="min-width: 230px;">
+                    <a class="dropdown-item" href="../pages/about.html">About US</a>
+                    <a class="dropdown-item" href="../pages/customers.html">Customers</a>
+                    <a class="dropdown-item" href="../blog/newsroom.html">Partners</a>
+                    <a class="dropdown-item" href="../pages/careers.html">Careers</a>
+                  </div>
+                  <!-- End Submenu -->
+                </li>
+                <!-- End Blog -->
+
+                <!-- pricing -->
+
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="../pages/pricing.html">Pricing</a>
+                </li>
+                <!-- end pricing -->
+
+                <!-- Demos -->
+                <li class="hs-has-mega-menu navbar-nav-item" data-hs-mega-menu-item-options='{
+              "desktop": {
+                "position": "right",
+                "maxWidth": "700px"
+              }
+            }'>
+                  <a id="demosMegaMenu" class="hs-mega-menu-invoker nav-link" href="javascript:;" aria-haspopup="true"
+                    aria-expanded="false">Resources</a>
+
+                  <!-- Demos - Mega Menu -->
+                  <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="demosMegaMenu">
+                    <div class="row no-gutters">
+                      <div class="col-lg-6">
+                        <!-- Promo Item -->
+                        <div class="p-5">
+                          <h6 class="navbar-promo-title text-indigo">Resources</h6>
+                          <h6 class="navbar-promo-text">
+                            Everything you need to learn about XoePay, from our APIs, Our
+                            Solutions, integrations to
+                            guides, blogs and support.
+                          </h6>
+                          <h6 class="mt-5 text-indigo">Developer APIs</h6>
+                        </div>
+
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../course/index.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/icon-67.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Getting Started</span>
+                                <span class="navbar-promo-text">A good place to start
+                                  from</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+
+                        <!-- Promo Item -->
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../app-marketplace/index.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/icon-12.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Documentation</span>
+                                <span class="navbar-promo-text">Easy and User friendly
+                                  guides to start receiving
+                                  payments for your Business</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../app-marketplace/index.html">
+                            <div class="media align-items-center">
+                              <img class="navbar-promo-icon" src="../../assets/svg/icons/icon-31.svg" alt="SVG">
+                              <div class="media-body">
+                                <span class="navbar-promo-title">Referrals</span>
+                                <span class="navbar-promo-text">Earn passive income by
+                                  recommending the Xoepay platform
+                                  to others.</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- End Promo Item -->
+                      </div>
+
+                      <!-- Promo -->
+                      <div class="col-lg-6 navbar-promo d-none d-lg-block">
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../course/index.html">
+                            <div class="media">
+                              <i class="fas fa-question-circle pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Why you got
+                                  charged </span>
+                                <span class="navbar-promo-text">Explore commission and
+                                  user policies, Know exactly how
+                                  you're charged</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../course/index.html">
+                            <div class="media ">
+                              <i class="fa fa-cog pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Integrations
+                                </span>
+                                <span class="navbar-promo-text">Intergrate with
+                                  industrial standard tools to help grow
+                                  your business</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../blog/blog_index.html" target="_blank">
+                            <div class="media ">
+                              <i class="fas fa-blog pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Blog</span>
+                                <span class="navbar-promo-text">Developer stories,
+                                  Industry News, Product releases,
+                                  Updates and Much more.</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../help-desk/index.html">
+                            <div class="media ">
+                              <i class="fa fa-headset pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Help and
+                                  Support</span>
+                                <span class="navbar-promo-text">Access our knowledge
+                                  base for help with your Rave
+                                  sandbox or live account.</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="youtube.com" target="_blank">
+                            <div class="media">
+                              <i class="fas fa-play-circle pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Video
+                                  Guides</span>
+                                <span class="navbar-promo-text">Quick video tutorials on
+                                  how to use and integrate Xeopay
+                                  into your existing solution</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="navbar-promo-card navbar-promo-item">
+                          <a class="navbar-promo-link" href="../course/index.html">
+                            <div class="media ">
+                              <i class="fas fa-microphone-alt pt-3 pr-3 text-indigo"></i>
+                              <div class="media-body">
+                                <span class="navbar-promo-title text-indigo">Decode
+                                  Fintechs</span>
+                                <span class="navbar-promo-text">The trade email
+                                  newsletter for Fintechs and financial
+                                  experts in Africa</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- End Promo -->
+                    </div>
+                  </div>
+                  <!-- End Demos - Mega Menu -->
+                </li>
+                <!-- End Demos -->
+
+                <!-- Docs -->
+                <!-- End Docs -->
+              </ul>
+              <ul class="navbar-nav">
+                <!-- Sign In -->
+
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="../pages/login.html" target="_blank">SingIn</a>
+                </li>
+                <!-- end pricing -->
+
+                <!--  signUpButton -->
+                <li class="navbar-nav-last-item">
+                  <a class="btn btn-indigo transition-3d-hover" href="../pages/signup.html" target="_blank">
+                    Create Account
+                  </a>
+                </li>
+                <!-- End SignUpButton -->
+              </ul>
+            </div>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Hero Section -->
+    <div class="container space-top-3 space-top-lg-4 space-bottom-2 space-bottom-lg-2">
+      <div class="row justify-content-between space-bottom-2">
+        <div class="col-md-6 col-lg-5">
+          <!-- Info -->
+          <div class="mb-5">
+            <h1 data-aos="fade-up">Route Transfers between remittance companies</h1>
+            <p data-aos="fade-up" data-aos-delay="100">The growing number of remittance companies still hasn't been make
+              sending money to some parts
+              of the world a easier. XoeRemit simple solves the probem by letting yous end funds from the
+              closest sending agency to your and have the receiver cashout at any agency closest to him or
+              her as well.</p>
+          </div>
+
+          <div class="mb-3">
+            <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="../pages/login.html"
+              target="_blank">Become a Partner</a>
+            <!-- Fancybox -->
+            <a class="js-fancybox btn btn-indigo transition-3d-hover" href="javascript:;" data-hs-fancybox-options='{
+                "src": "//youtube.com/0qisGSwZym4",
+                "caption": "Front - Responsive Website Template",
+                "speed": 700,
+                "buttons": ["fullScreen", "close"],
+                "youtube": {
+                  "autoplay": 1
+                }
+              }'>
+              <i class="fas fa-play-circle mr-1"></i>
+              How It works
+            </a>
+            <!-- End Fancybox -->
+          </div>
+          <!-- End Info -->
+        </div>
+
+        <div class="col-md-6 d-none d-md-inline-block">
+          <!-- SVG Illustration -->
+          <figure class="w-100">
+            <img class="img-fluid" src="../../assets/svg/illustrations/xoeRemit.svg" alt="Image Description">
+          </figure>
+          <!-- End SVG Illustration -->
+        </div>
+      </div>
+
+      <!-- Clients -->
+      <div class="row justify-content-between text-center">
+        <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/boring-company.svg"
+              alt="Image Description">
+          </div>
+        </div>
+        <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/netflix.svg"
+              alt="Image Description">
+          </div>
+        </div>
+        <div class="col-4 col-lg-2 mb-5 mb-lg-0">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/fitbit.svg"
+              alt="Image Description">
+          </div>
+        </div>
+        <div class="col-4 col-lg-2">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/google.svg"
+              alt="Image Description">
+          </div>
+        </div>
+        <div class="col-4 col-lg-2">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/airbnb.svg"
+              alt="Image Description">
+          </div>
+        </div>
+        <div class="col-4 col-lg-2">
+          <div class="mx-3">
+            <img class="max-w-11rem max-w-md-13rem mx-auto" src="../../assets/svg/clients-logo/uber.svg"
+              alt="Image Description">
+          </div>
+        </div>
+      </div>
+      <!-- End Clients -->
+    </div>
+    <!-- End Hero Section -->
+
+    <div class="container space-2 space-bottom-3">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
+        <span class="d-block small font-weight-bold text-cap mb-2" data-aos="fade-up">What we do</span>
+        <h2 data-aos="fade-up" data-aos-delay="50">XoeRemit creates a bridge between remittance companies making
+          transfers to every location possible.</h2>
+      </div>
+      <!-- End Title -->
+
+      <div class="row justify-content-lg-center">
+        <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7" data-aos="fade-up">
+          <!-- Icon Blocks -->
+          <div class="media pr-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xoePay_fast.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>quick to setup</h4>
+              <p>Simply sign up and verify your identity as an authorized remittance company. Verification only takes 24
+                hours</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+
+        <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7" data-aos="fade-up" data-aos-delay="50">
+          <!-- Icon Blocks -->
+          <div class="media pl-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xeoPay_compare.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>Compare rates</h4>
+              <p>Compare sending rates with other remittance companies and generate a better pricing model for your
+                business.</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7" data-aos="fade-up" data-aos-delay="100">
+          <!-- Icon Blocks -->
+          <div class="media pr-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xoePay_secure_1.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>Top not security</h4>
+              <p>we're ISO 27001 & 22301 certified, PCI DSS compliant. We have all money sending license required in all
+                our areas of operation.</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+
+        <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-7" data-aos="fade-up" data-aos-delay="150">
+          <!-- Icon Blocks -->
+          <div class="media pl-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xoePay_antifraud.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>Best anti-fraud protection</h4>
+              <p>Our AI enabled anti-fraud algorithms detects fraudulent transfers and exchanges fraudstar information
+                between companies.</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="col-md-6 col-lg-5 mb-3 mb-md-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <!-- Icon Blocks -->
+          <div class="media pr-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xoePay_altpayment.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>Cashout anywhere</h4>
+              <p>With Xoepay partial transfers, you can earn commissions from just sending or cashout only. Receiver can
+                cashout from any of our partner companies around the world.</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+
+        <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="250">
+          <!-- Icon Blocks -->
+          <div class="media pl-lg-5">
+            <figure class="w-100 max-w-8rem mr-4">
+              <img class="img-fluid" src="../../assets/svg/icons/xoePay_documentation.svg" alt="SVG">
+            </figure>
+            <div class="media-body">
+              <h4>API Driven</h4>
+              <p>Programmatically send or receive money from your already existing software infrastructure. Sending,
+                receiving and setting rates is as simple as making an API call.</p>
+            </div>
+          </div>
+          <!-- End Icon Blocks -->
+        </div>
+      </div>
+    </div>
+    <!-- End Services Section -->
+    <!-- End Features Section -->
+
+    <!-- End SVG Bottom Shape -->
+
+
+    <!-- Testimonials Section -->
+    <section>
+      <!-- Testimonials Section -->
+      <div class="clearfix space-bottom-1 px-3 px-md-5">
+        <div class="bg-img-hero rounded" style="background-image: url(../../assets/img/1920x800/img4.jpg);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 col-xl-4 space-2">
+                <div class="card">
+                  <div class="card-body p-5">
+                    <div class="js-slick-carousel slick" data-hs-slick-carousel-options='{
+                           "fade": true,
+                           "dots": true,
+                           "dotsClass": "slick-pagination mt-5"
+                         }'>
+                      <!-- Testimonials -->
+                      <div class="js-slide">
+                        <!-- SVG Quote -->
+                        <figure class="mb-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" width="40px" height="40px" viewBox="0 0 8 8" style="enable-background:new 0 0 8 8;"
+                            xml:space="preserve">
+                            <path fill="#377dff" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
+                              C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
+                              c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
+                              C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z" />
+                          </svg>
+                        </figure>
+                        <!-- End SVG Quote -->
+
+                        <!-- Text -->
+                        <blockquote class="text-dark text-lh-lg mb-4">The template is really nice and offers quite a
+                          large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!
+                        </blockquote>
+                        <!-- End Text -->
+
+                        <!-- Author -->
+                        <div class="media">
+                          <div class="avatar avatar-circle mr-3">
+                            <img class="avatar-img" src="../../assets/img/100x100/img1.jpg" alt="Image Description">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="mb-0">Christina Kray</h4>
+                            <p class="small">Google</p>
+                          </div>
+                        </div>
+                        <!-- End Author -->
+                      </div>
+                      <!-- End Testimonials -->
+
+                      <!-- Testimonials -->
+                      <div class="js-slide">
+                        <!-- SVG Quote -->
+                        <figure class="mb-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" width="40px" height="40px" viewBox="0 0 8 8" style="enable-background:new 0 0 8 8;"
+                            xml:space="preserve">
+                            <path fill="#377dff" d="M3,1.3C2,1.7,1.2,2.7,1.2,3.6c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5
+                              C1.4,6.9,1,6.6,0.7,6.1C0.4,5.6,0.3,4.9,0.3,4.5c0-1.6,0.8-2.9,2.5-3.7L3,1.3z M7.1,1.3c-1,0.4-1.8,1.4-1.8,2.3
+                              c0,0.2,0,0.4,0.1,0.5c0.2-0.2,0.5-0.3,0.9-0.3c0.8,0,1.5,0.6,1.5,1.5c0,0.9-0.7,1.5-1.5,1.5c-0.7,0-1.1-0.3-1.4-0.8
+                              C4.4,5.6,4.4,4.9,4.4,4.5c0-1.6,0.8-2.9,2.5-3.7L7.1,1.3z" />
+                          </svg>
+                        </figure>
+                        <!-- End SVG Quote -->
+
+                        <!-- Text -->
+                        <blockquote class="text-dark text-lh-lg mb-4">If you can design one thing you can design
+                          everything with Front. Just believe it.</blockquote>
+                        <!-- End Text -->
+
+                        <!-- Author -->
+                        <div class="media">
+                          <div class="avatar avatar-circle mr-3">
+                            <img class="avatar-img" src="../../assets/img/100x100/img3.jpg" alt="Image Description">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="mb-0">Alex Pottorf</h4>
+                            <p class="small">Github</p>
+                          </div>
+                        </div>
+                        <!-- End Author -->
+                      </div>
+                      <!-- End Testimonials -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Features Section -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="w-md-75 w-lg-75 text-center mx-md-auto space-top-1">
+          <h1 class="my-4" data-aos="fade-up"> Taking Flexibility on a whole new level.</h1>
+          <p data-aos="fade-up" data-aos-delay="100"> Make changes on the go without bothering to manual update every
+            other aspects your core
+            settings. So you can easily change pricing conditions as you change your scale of operation.</p>
+        </div>
+        <!-- End Title -->
+        <div class="row justify-content-lg-between py-10">
+
+          <div class="col-md-6 align-self-center">
+            <!-- SVG Illustration -->
+            <figure class="w-100">
+              <img class="img-fluid" src="../../assets/svg/illustrations/flexibility.svg" alt="Image Description">
+            </figure>
+            <!-- End SVG Illustration -->
+          </div>
+
+          <div class="col-md-6 col-lg-6">
+            <!-- Info -->
+            <div>
+              <ul class="nav nav-box" role="tablist">
+                <li class="nav-item w-100 mx-0 mb-3" data-aos="fade-up">
+                  <a class="nav-link p-4 active">
+                    <div class="media align-items-center align-items-lg-start">
+                      <span class="icon icon-xs icon-success icon-circle mt-1 mr-3">
+                        <i class="fas fa-check fa-xs"></i>
+                      </span>
+                      <div class="media-body">
+                        <div class=" mt-2">
+                          <p class="text-body mb-0">You save money on your transfer by selecting the cheapest provider.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="nav-item w-100 mx-0 mb-3" data-aos="fade-up">
+                  <a class="nav-link p-4 active">
+                    <div class="media align-items-center align-items-lg-start">
+                      <span class="icon icon-xs icon-success icon-circle mt-1 mr-3">
+                        <i class="fas fa-check fa-xs"></i>
+                      </span>
+                      <div class="media-body">
+                        <div class="mt-2">
+                          <p class="text-body mb-0">The best providers earn new customers without expensive marketing,
+                            helping keep their costs (and prices) low.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="nav-item w-100 mx-0 mb-3" data-aos="fade-up">
+                  <a class="nav-link p-4 active">
+                    <div class="media align-items-center align-items-lg-start">
+                      <span class="icon icon-xs icon-success icon-circle mt-1 mr-3">
+                        <i class="fas fa-check fa-xs"></i>
+                      </span>
+                      <div class="media-body">
+                        <div class="mt-2">
+                          <p class="text-body mb-0">XeoRemit earns a commission for searching for the cheapest options
+                            and routing transfer between providers and currencies.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="nav-item w-100 mx-0 mb-3" data-aos="fade-up">
+                  <a class="nav-link p-4 active">
+                    <div class="media align-items-center align-items-lg-start">
+                      <span class="icon icon-xs icon-success icon-circle mt-1 mr-3">
+                        <i class="fas fa-check fa-xs"></i>
+                      </span>
+                      <div class="media-body">
+                        <div class="mt-2">
+                          <p class="text-body mb-0">Providers can instantly scale their services to global reach without
+                            extending their license, acquire new infrastructure or other related costs.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Nav -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SVG Bottom Shape -->
+    <figure>
+      <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="100%" height="64px" viewBox="0 0 1921 273"
+        style="margin-bottom: -8px; enable-background:new 0 0 1921 273;" xml:space="preserve">
+        <polygon fill="#EAF6FC " points="1921,0 0,0 0,273 " />
+      </svg>
+    </figure>
+    <!-- End SVG Bottom Shape -->
+
+
+    <section>
+      <div class="container space-3">
+        <div class="row justify-content-lg-between mb-7">
+          <div class="col-md-6 col-lg-5 align-self-center">
+            <!-- Info -->
+            <div class="mb-5">
+              <h1 data-aos="fade-up">Stop overpaying when you send money home or abroad.</h1>
+              <p data-aos="fade-up" data-aos-delay="100">With our API, you have access data from multiple sending
+                providers. This data can be used to compare and derive better sending routes and better prices for all
+                transactions. Explore our AI enabled sending recommender to get then best possible prices for sending to
+                other currencies and destinations.</p>
+              <div class="mt-2">
+                <a class="btn btn-indigo btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="../pages/login.html"
+                  target="_blank">Partner with Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <!-- SVG Illustration -->
+            <figure class="w-100">
+              <img class="img-fluid drop_shadow" src="../../assets/svg/illustrations/remit_compare.svg" alt="Xoe remit">
+            </figure>
+            <!-- End SVG Illustration -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- security section -->
+    <figure>
+      <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="100%" height="64px" viewBox="0 0 1921 273"
+        style="margin-bottom: -8px; enable-background:new 0 0 1921 273;" xml:space="preserve">
+        <polygon fill="#EAF6FC " points="0,273 1921,273 1921,0 " />
+      </svg>
+    </figure>
+    <!-- End SVG Top Shape -->
+    <section class="bg-light">
+      <div class="container space-3">
+        <div class="row justify-content-lg-between mb-7 flex-column-reverse flex-lg-row">
+          <div class="col-md-6">
+            <!-- SVG Illustration -->
+            <figure class="w-100">
+              <img class="img-fluid " src="../../assets/svg/illustrations/antifraud.svg" alt="Xoe remit">
+            </figure>
+            <!-- End SVG Illustration -->
+          </div>
+          <div class="col-md-6 col-lg-5 align-self-center">
+            <!-- Info -->
+            <div class="mb-5">
+              <h1 data-aos="fade-up">Best Industry standard anti-fraud protection technology.</h1>
+              <p data-aos="fade-up" data-aos-delay="50">XoeRemit uses machine learning and natural language processing
+                techniques to detect fraudulent transfers. Models have been trained with millions of data samples taken
+                over the past decade to ensure a high accuracy rate.</p>
+              <p data-aos="fade-up" data-aos-delay="100"> Xoepay constantly updates and share fraudstar details with its
+                partner organizations to ensure that switching between providers becomes impossible. Once a fraudulent
+                transaction is reported at any partner agency, XoeRemit leverages it platform to propagate this
+                information to other providers.</p>
+              <p data-aos="fade-up" data-aos-delay="150"> Using NLP, geographical location and other advance level
+                techniques, we can detect a fraudster based on very simple factors such as sending motives. Our Advance
+                AI is constanly working on identifying trends in fraudulent transactions and signals of such
+                transactions are sent almost immediately the transaction is initiated.</p>
+              <div class="mt-2">
+                <a class="btn btn-indigo btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3" href="../pages/login.html"
+                  target="_blank">Partner with Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG Bottom Shape -->
+    <figure>
+      <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="100%" height="64px" viewBox="0 0 1921 273"
+        style="margin-bottom: -8px; enable-background:new 0 0 1921 273;" xml:space="preserve">
+        <polygon fill="#EAF6FC " points="1921,0 0,0 0,273 " />
+      </svg>
+    </figure>
+    <!-- End SVG Bottom Shape -->
+
+    <section class="space-2">
+      <!-- Features Section -->
+      <div id="featuresSection" class="container space-1 space-bottom-2">
+        <!-- Title -->
+        <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+          <h2 class="h1" data-aos="fade-up">Single solution to multiple Problems.</h2>
+          <p data-aos="fade-up" data-aos-delay="100">XoeRemit wipes out the issues that come with sending money both
+            home and overseas. Its Simple, Send
+            anywhere and cashout anywhere.</p>
+        </div>
+        <!-- End Title -->
+
+        <div class="row mx-n2">
+          <div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0" data-aos="fade-up">
+            <!-- Icon Blocks -->
+            <a class="card h-100 transition-3d-hover" href="#">
+              <div class="card-body">
+                <figure class="w-100 max-w-8rem mb-4">
+                  <img class="img-fluid" src="../../assets/svg/icons/xoePay_personalize.svg" alt="SVG">
+                </figure>
+                <h4>Personalize</h4>
+                <p class="font-size-1 text-body mb-0">Customise the look and feel of the payment request
+                  page from your Dashboard to make it extend your brand.</p>
+              </div>
+            </a>
+            <!-- End Icon Blocks -->
+          </div>
+
+          <div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="50">
+            <!-- Icon Blocks -->
+            <a class="card h-100 transition-3d-hover" href="#">
+              <div class="card-body">
+                <figure class="w-100 max-w-8rem mb-4">
+                  <img class="img-fluid" src="../../assets/svg/icons/xoePay_documentation.svg" alt="SVG">
+                </figure>
+                <h4>API Driven</h4>
+                <p class="font-size-1 text-body mb-0">Automate the generation and collection of payments
+                  through powerful APIs for all aspects of payment links.</p>
+              </div>
+            </a>
+            <!-- End Icon Blocks -->
+          </div>
+
+          <div class="col-sm-6 col-lg-3 px-2 mb-3 mb-sm-0" data-aos="fade-up" data-aos-delay="100">
+            <!-- Icon Blocks -->
+            <a class="card h-100 transition-3d-hover" href="#">
+              <div class="card-body">
+                <figure class="w-100 max-w-8rem mb-4">
+                  <img class="img-fluid" src="../../assets/svg/icons/xoePay_notifications.svg" alt="SVG">
+                </figure>
+                <h4>Webhooks Notification</h4>
+                <p class="font-size-1 text-body mb-0">Keep your systems in sync with automated webhook based
+                  notifications each time a link is paid.</p>
+              </div>
+            </a>
+            <!-- End Icon Blocks -->
+          </div>
+
+          <div class="col-sm-6 col-lg-3 px-2" data-aos="fade-up" data-aos-delay="150">
+            <!-- Icon Blocks -->
+            <a class="card h-100 transition-3d-hover" href="#">
+              <div class="card-body">
+                <figure class="w-100 max-w-8rem mb-4">
+                  <img class="img-fluid" src="../../assets/svg/icons/xoePay_graph_1.svg" alt="SVG">
+                </figure>
+                <h4>Dashboard Reports</h4>
+                <p class="font-size-1 text-body mb-0">Take business decisions using insights from the real
+                  time data and reports available on the dashboard.</p>
+              </div>
+            </a>
+            <!-- End Icon Blocks -->
+          </div>
+        </div>
+      </div>
+      <!-- End Features Section -->
+    </section>
+
+
+
+    <div class="position-relative">
+      <div class="bg-indigo bg-img-hero"
+        style="background-image: url(../../assets/svg/components/abstract-shapes-5.svg);">
+        <div class="container space-top-2 space-top-lg-3 space-bottom-1">
+          <!-- Title -->
+          <div class="w-lg-50 text-center text-white mx-lg-auto mb-7">
+            <span class="d-block small text-white-70 font-weight-bold text-cap mb-2">Become a XoeRemit Partner</span>
+            <h2 class="text-white text-lh-lg">Collaborate with us to build a better business <span
+                class="text-warning">Let's chat.</span></h2>
+          </div>
+          <!-- End Title -->
+
+          <div class="position-relative w-lg-50 z-index-2 mx-lg-auto">
+            <!-- Form -->
+            <form class="js-validate card shadow-lg p-4 p-lg-7">
+              <div class="js-form-message form-group mb-4">
+                <label for="inputName" class="input-label">Name</label>
+                <input type="text" class="form-control" name="name" id="inputName" placeholder="Alex Hecker"
+                  aria-label="Alex Hecker" required data-msg="Please enter your name.">
+              </div>
+              <div class="form-group mb-4">
+                <label for="inputCompanyName" class="input-label">Company name <span
+                    class="text-muted font-weight-normal ml-1">(optional)</span></label>
+                <input type="text" class="form-control" name="companyName" id="inputCompanyName"
+                  placeholder="Pixeel Ltd." aria-label="Pixeel Ltd.">
+              </div>
+              <div class="js-form-message form-group mb-4">
+                <label for="emailAddress" class="input-label">Email address</label>
+                <input type="email" class="form-control" name="emailAddress" id="emailAddress"
+                  placeholder="alexhecker@pixeel.com" aria-label="alexhecker@pixeel.com" required
+                  data-msg="Please enter a valid email address.">
+              </div>
+              <div class="js-form-message form-group mb-4">
+                <label for="descriptionTextarea" class="input-label">Tell us more</label>
+                <textarea class="form-control" rows="3" id="descriptionTextarea"
+                  placeholder="Hi there, I would like to ..." required data-msg="Please enter your message."></textarea>
+              </div>
+
+              <div class="d-md-flex justify-content-md-end">
+                <button type="submit" class="btn btn-indigo btn-wide transition-3d-hover">Submit</button>
+              </div>
+            </form>
+            <!-- End Form -->
+          </div>
+        </div>
+      </div>
+
+      <!-- SVG Shape -->
+      <figure class="position-absolute right-0 bottom-0 left-0">
+        <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" viewBox="0 0 1920 323" enable-background="new 0 0 1920 323" xml:space="preserve"
+          style="margin-bottom: -8px;">
+          <polygon fill="#fff" points="0,323 1920,323 1920,0 " />
+        </svg>
+      </figure>
+      <!-- End SVG Shape -->
+    </div>
+
+
+
+    <!-- Articles Section -->
+    <div class="container space-top-lg-3" <div class="w-lg-80 mx-lg-auto">
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-lg-0" data-aos="fade-up">
+          <!-- Icon Block -->
+          <a class="card h-100 transition-3d-hover" href="#">
+            <div class="card-body">
+              <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                  <img src="../../assets//svg/icons/xoePay_support_2.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                  <h3>Ask a question</h3>
+                  <p class="text-body">Email with support members to get your questions answered.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- End Icon Block -->
+        </div>
+
+        <div class="col-md-6 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <!-- Icon Block -->
+          <a class="card h-100 transition-3d-hover" href="#">
+            <div class="card-body">
+              <div class="media">
+                <figure class="w-100 max-w-6rem mr-3">
+                  <img class="img-fluid" src="../../assets/svg/icons/xoePay_documentation.svg" alt="SVG">
+                </figure>
+                <div class="media-body">
+                  <h3>Read documentation</h3>
+                  <p class="text-body">Dig into the technical details of our products and consensus algorithm.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- End Icon Block -->
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- End Articles Section -->
+    <!-- End Contacts Section -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="container space-2 space-top-lg-3">
+    <!-- Links -->
+    <div class=" space-bottom-1 space-bottom-lg-2">
+      <div class="row justify-content-lg-between">
+        <div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0">
+          <!-- Logo -->
+          <div class="mb-4">
+            <a href="index.html" aria-label="Front">
+              <img class="brand" src="../../assets/svg/logos/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <!-- End Logo -->
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item">
+              <a class="nav-link media" href="#">
+                <span class="media">
+                  <span class="fas fa-location-arrow mt-1 mr-2"></span>
+                  <span class="media-body">
+                    153 Williamson Plaza, Maggieberg
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link media" href="#">
+                <span class="media">
+                  <span class="fas fa-phone-alt mt-1 mr-2"></span>
+                  <span class="media-body">
+                    +1 (062) 109-9222
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+          <h5>Products</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">Payments</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Wireless POS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Card Issuing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">XoeQR</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Payment Links</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">USSD</a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg">
+          <h5>Developers</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">API Reference</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">API Status</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Open Source</a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+          <h5>Company</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="../pages/about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Enterprise</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/customers.html">Customers</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/">Partners</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/careers.html">Careers <span
+                  class="badge badge-primary ml-1">We're hiring</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="../blog/blog_index.html" target="_blank">Blog</a>
+            </li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+
+
+
+        <div class="col-6 col-md-3 col-lg">
+          <h5>Resources</h5>
+
+          <!-- Nav Link -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item"><a class="nav-link" href="../help-desk/index.html">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/contacts-agency.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/privacy.html">Privacy Policy</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/terms.html">Terms and Conditions</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="../pages/privacy.html">GDPR </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SiteMap </a></li>
+          </ul>
+          <!-- End Nav Link -->
+        </div>
+      </div>
+    </div>
+    <!-- End Links -->
+    <hr class=" mb-3">
+    <!-- Copyright -->
+    <div class="row align-items-sm-center">
+      <div class="col-sm-6 mb-4 mb-sm-0">
+        <p class="small mb-0">&copy; 2020 XoePay. All rights reserved.</p>
+      </div>
+
+      <div class="col-md-6 text-md-right">
+        <ul class="list-inline mb-0">
+          <!-- Social Networks -->
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-xs btn-icon btn-indigo" href="#">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <!-- End Social Networks -->
+
+          <!-- Language -->
+          <li class="list-inline-item">
+            <div class="hs-unfold">
+              <a class="js-hs-unfold-invoker dropdown-toggle btn btn-xs btn-indigo" href="javascript:;"
+                data-hs-unfold-options='{
+                  "target": "#footerLanguage",
+                  "type": "css-animation",
+                  "animationIn": "slideInDown"
+                 }'>
+                <img class="dropdown-item-icon" src="../../assets/vendor/flag-icon-css/flags/4x3/us.svg"
+                  alt="United States Flag">
+                <span>United States</span>
+              </a>
+
+              <div id="footerLanguage"
+                class="hs-unfold-content dropdown-menu dropdown-unfold dropdown-menu-bottom mb-2">
+                <a class="dropdown-item active" href="#">English</a>
+                <a class="dropdown-item" href="#">Deutsch</a>
+                <a class="dropdown-item" href="#">Español</a>
+                <a class="dropdown-item" href="#">Français</a>
+                <a class="dropdown-item" href="#">Italiano</a>
+                <a class="dropdown-item" href="#">日本語</a>
+                <a class="dropdown-item" href="#">한국어</a>
+                <a class="dropdown-item" href="#">Nederlands</a>
+                <a class="dropdown-item" href="#">Português</a>
+                <a class="dropdown-item" href="#">Русский</a>
+              </div>
+            </div>
+          </li>
+          <!-- End Language -->
+        </ul>
+      </div>
+    </div>
+    <!-- End Copyright -->
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- Go to Top -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": 15
+         },
+         "show": {
+           "bottom": 15
+         },
+         "hide": {
+           "bottom": -15
+         }
+       }
+     }'>
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../../assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="../../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="../../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="../../assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
+  <script src="../../assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="../../assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="../../assets/vendor/aos/dist/aos.js"></script>
+
+  <!-- JS Front -->
+  <script src="../../assets/js/hs.core.js"></script>
+  <script src="../../assets/js/hs.fancybox.js"></script>
+  <script src="../../assets/js/hs.cubeportfolio.js"></script>
+  <script src="../../assets/js/hs.slick-carousel.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      var header = new HSHeader($('#header')).init();
+
+      // initialization of mega menu
+      var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
+        desktop: {
+          position: 'left'
+        }
+      }).init();
+
+
+      var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+
+      // initialization of slick carousel
+      $('.js-slick-carousel').each(function () {
+        var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+      });
+
+      // initialization of fancybox
+      $('.js-fancybox').each(function () {
+        var fancybox = $.HSCore.components.HSFancyBox.init($(this));
+      });
+
+      // initialization of aos
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+
+      // initialization of go to
+      $('.js-go-to').each(function () {
+        var goTo = new HSGoTo($(this)).init();
+      });
+    });
+  </script>
+
+  <!-- IE Support -->
+  <script>
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write(
+      '<script src="../../assets/vendor/polifills.js"><\/script>');
+  </script>
+</body>
+
+</html>
